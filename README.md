@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Fonctionnent correctement** : 
+* Les pages statiques contact et team
+* le message de bienvenue qui match avec l'url 
+* l'affichage des title de gossips et des content dans des cards 
 
-Things you may want to cover:
+**Non traités** 
+* les shows des potins 
+* les shows des users 
+* Redir des cards
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Le projet validant en lendemain de soirée avec invités à gérer c'est pas le top 😂
