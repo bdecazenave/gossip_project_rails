@@ -1,0 +1,16 @@
+<h1>Bienvenue sur The Gossip Project</h1>
+  <p> Tu trouveras ci-dessous la liste de tous les potins, profites-en bien</p>
+
+<h2>La fameuse liste</h2>
+
+
+  <% @gossips.each do |gossip| %>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title"><%= gossip.title%></h5>
+        <p class="card-text"><%= gossip.content%></p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  <% end %>
